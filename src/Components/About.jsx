@@ -10,9 +10,9 @@ AOS.init({
 const About = () => {
   return (
     <>
-    <div className='w-full min-h-screen  bg-tblue transition ease-in-out' id='About' >
+    <div className='w-full min-h-screen  bg-tblue overflow-hidden' id='About' >
         <h1 className='text-3xl lg:text-5xl text-center text-white underline font-extrabold pt-20'>About me</h1>
-        <div className='flex mt-20 flex-wrap gap-4 justify-center w-full'>
+        <div className='flex mt-20 flex-wrap gap-4 justify-center'>
 
             
             <div className=' mx-3 w-[500px] h-[200px]  border-tgreen border-2  rounded-md 'data-aos="fade-right">

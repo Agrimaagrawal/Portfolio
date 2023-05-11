@@ -28,7 +28,7 @@ const Hero = () => {
          <div className=' mt-8 flex gap-5 mb-4'>
           <a href="https:/www.linkedin.com/in/agrima-agrawal-34a772212" target="_blank" className='text-white md:text-3xl text-xl'><FaLinkedin/></a>
           <a href="https://github.com/Agrimaagrawal" target="_blank" className='text-white md:text-3xl text-xl'><FaGithub/></a>
-          <a href="https://agrimaagrawal20@gmail.com" target="_blank" className='text-white md:text-3xl text-xl'><AiFillMail/></a>
+          <a href="mailto:agrimaagrawal20@gmail.com" target="_blank" className='text-white md:text-3xl text-xl'><AiFillMail/></a>
 
          </div>
          <div className='flex gap-3'>

@@ -7,6 +7,7 @@ import Project from './Components/Project'
 import {BrowserRouter, Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import Navbar from './Components/Navbar'
+import Contact from './Components/Contact'
 
 function App() {
   
@@ -15,10 +16,12 @@ function App() {
     <>
     <BrowserRouter>
    <Navbar/>
-    <Hero/>
-    <About ele={"dumb"}/>
-    <Project/>
-    <Skills/>
+   <Hero/>
+   <About/>
+   <Project/>
+   <Skills/>
+   <Contact/>
+    
     </BrowserRouter>
     
 

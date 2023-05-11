@@ -7,6 +7,7 @@ import react from '../assets/react.svg';
 import github from '../assets/github.png';
 import c from '../assets/c-.png';
 import tailwind from '../assets/physics.png';
+import tailwindcss from '../assets/tailwindcss.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -18,10 +19,10 @@ AOS.init({
 const Skills = () => {
     const skills=[
         {photo:html,name:"HTML"},
-        {photo:css,name:"Css"},
+        {photo:css,name:"CSS"},
         {photo:js,name:"Javascript"},
-        {photo:react,name:"React"},
-        {photo:tailwind,name:"Tailwind css"},
+        {photo:tailwind,name:"React"},
+        {photo:tailwindcss,name:"Tailwind css"},
         {photo:git,name:"Git"},
         {photo:github,name:"Github"},
         {photo:c,name:"C++"},
@@ -29,14 +30,14 @@ const Skills = () => {
     ]
   return (
     <div>
-      <div className='w-full h-auto lg:min-h-screen bg-tblue '>
+      <div className='w-full h-auto lg:min-h-screen bg-tblue ' id="Skills">
         <h1 className='text-3xl lg:text-6xl font-bold text-center p-12 pt-36 text-white underline'> My Skills</h1>
         <div  className='flex  w-full justify-center items-center'>
         <div className='flex flex-wrap lg:w-[800px] justify-center gap-4 '>
           {skills.map((i)=>{
             return(
               
-            <div className=' w-[100px] h-[120px] md:w-[200px] md:h-[150px] flex-col border-2 border-tgreen' data-aos="zoom-out">
+            <div className=' w-[100px] h-[120px] md:w-[200px] md:h-[150px] flex-col border-2 border-tgreen' data-aos="zoom-in">
               <div className='w-[40px] md:w-[70px] mx-auto my-5 '>
                 <img src={i.photo}></img>
               </div>
