@@ -2,7 +2,7 @@ import React from 'react'
 import {FaLinkedin } from 'react-icons/fa';
 import {FaGithub} from  'react-icons/fa';
 import{AiFillMail} from 'react-icons/ai';
-import photo from '../assets/Agrima.jpeg';
+import photo from '../assets/avatar.svg';
 import Project from '../Components/Project'
 import 'animate.css';
 import '../style.css';
@@ -48,8 +48,8 @@ const Hero = () => {
          </div>
          </div>
          <div className='lg:w-1/2 flex justify-center items-center '>
-          <div className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full border-2 border-tgreen lg:ml-44 mt-4 '>
-            <img src={photo} className=" w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full object-cover p-3"></img>
+          <div className='w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full border-2 border-tgreen lg:ml-44 mt-4 '>
+            <img src={photo} className=" w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full object-cover p-3"></img>
 
           </div>
 
