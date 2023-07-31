@@ -3,7 +3,7 @@ import Youtube from '../assets/Youtube.png';
 import Weather from '../assets/Weather.png';
 import TicTac from '../assets/Tictac.png';
 import Todo from '../assets/Todo.png';
-import Stylehub from '../assets/Stylehub.jpeg';
+import Stylehub from '../assets/stylehub.jpeg';
 import boxoffice from '../assets/boxoffice.jpeg';
 
 
