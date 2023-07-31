@@ -2,7 +2,7 @@ import React from 'react'
 import {FaLinkedin } from 'react-icons/fa';
 import {FaGithub} from  'react-icons/fa';
 import{AiFillMail} from 'react-icons/ai';
-import photo from '../assets/myphoto.jpg';
+import photo from '../assets/Agrima.jpeg';
 import Project from '../Components/Project'
 import 'animate.css';
 import '../style.css';

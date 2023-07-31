@@ -3,13 +3,24 @@ import Youtube from '../assets/Youtube.png';
 import Weather from '../assets/Weather.png';
 import TicTac from '../assets/Tictac.png';
 import Todo from '../assets/Todo.png';
+import Stylehub from '../assets/Stylehub.jpeg';
+import boxoffice from '../assets/boxoffice.jpeg';
 
 
 const Project = () => {
   return (
+    
     <div className=' bg-tblue w-full h-auto flex flex-col ' id="Project">
       <h1 className='text-white text-3xl md:text-5xl font-extrabold underline text-center mt-32 md:m-0 '>My Projects</h1>
       <div className='flex mt-10 md:mt-28 gap-8 justify-center items-center flex-wrap'>
+      <div className='flex flex-col justify-center items-center gap-6 md:w-[500px]  h-[400px] w-[400px] bg-white/5 hover:border-2 border-tgreen '>
+            <h1 className='text-3xl font-bold text-white '>StyleHub</h1>
+            <div className='w-[200px] md:w-[300px] shadow-lg '><img src={Stylehub}></img></div>
+            <div className='flex gap-10'>
+              <button className='font-bold text-xl underline text-purple-400  '><a href="https://github.com/Agrimaagrawal/Ecommerce" >Github Link</a></button>
+              <button className='font-bold text-xl text-tgreen underline '><a href="https://peaceful-daifuku-ae75cb.netlify.app/" >Live Project Link</a></button>
+            </div>
+          </div>
       <div className='flex flex-col justify-center items-center gap-6 md:w-[500px]  h-[400px] w-[400px] bg-white/5 hover:border-2 border-tgreen '>
             <h1 className='text-3xl font-bold text-white '>Youtube clone</h1>
             <div className='w-[300px] md:w-[400px] shadow-lg '><img src={Youtube}></img></div>
@@ -18,8 +29,16 @@ const Project = () => {
               <button className='font-bold text-xl text-tgreen underline '><a href="https://youtubeclone-beta.vercel.app/" >Live Project Link</a></button>
             </div>
           </div>
+          <div className='flex flex-col justify-center items-center gap-6 md:w-[500px]  h-[400px] w-[400px] bg-white/5 hover:border-2 border-tgreen '>
+            <h1 className='text-3xl font-bold text-white '>Box Office</h1>
+            <div className='w-[300px] md:w-[400px] shadow-lg '><img src={boxoffice}></img></div>
+            <div className='flex gap-10'>
+              <button className='font-bold text-xl underline text-purple-400  '><a href="https://github.com/Agrimaagrawal/boxoffice" >Github Link</a></button>
+              <button className='font-bold text-xl text-tgreen underline '><a href="https://box-office-inky.vercel.app/" >Live Project Link</a></button>
+            </div>
+          </div>
           
-<div className='flex flex-col justify-center items-center gap-6 md:w-[500px]  h-[400px] w-[400px]  bg-white/5 hover:border-2 border-tgreen'>
+           <div className='flex flex-col justify-center items-center gap-6 md:w-[500px]  h-[400px] w-[400px]  bg-white/5 hover:border-2 border-tgreen'>
             <h1 className='text-3xl font-bold text-white '>Weather app</h1>
             <div className='w-[300px] md:w-[400px] shadow-lg '><img src={Weather}></img></div>
             <div className='flex gap-10'>
